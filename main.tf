@@ -1,6 +1,7 @@
 # specify provider, provider source and version
 # configure the specified provider
 provider "azurerm" {
+  use_oidc = true
   features {}
 }
 
