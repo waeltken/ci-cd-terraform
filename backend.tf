@@ -4,5 +4,6 @@ terraform {
     container_name       = "tfstate"
     resource_group_name  = "default"
     key                  = "ci-cd-terraform.tfstate"
+    oidc                 = true
   }
 }
